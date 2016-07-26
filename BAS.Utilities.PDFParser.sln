@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAS.Utilities.PDFParser", "BAS.Utilities.PDFParser\BAS.Utilities.PDFParser.csproj", "{17D105B4-6323-48DF-A383-D67235A79748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAS.Tests.PDFParserTestFixture", "BAS.Tests.PDFParserTestFixture\BAS.Tests.PDFParserTestFixture.csproj", "{9621CE04-2E64-4801-8637-DC77DDEFB00A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F19C11CD-F671-40C8-9FEF-024645B2426C}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.mdown = README.mdown
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17D105B4-6323-48DF-A383-D67235A79748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D105B4-6323-48DF-A383-D67235A79748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D105B4-6323-48DF-A383-D67235A79748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D105B4-6323-48DF-A383-D67235A79748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9621CE04-2E64-4801-8637-DC77DDEFB00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9621CE04-2E64-4801-8637-DC77DDEFB00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9621CE04-2E64-4801-8637-DC77DDEFB00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9621CE04-2E64-4801-8637-DC77DDEFB00A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

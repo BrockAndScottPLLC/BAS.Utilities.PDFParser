@@ -1,0 +1,21 @@
+﻿# BAS.Utilities.PDFParser
+
+**Requires**: .NET Framework version 4.5.2
+
+**Description**: A library designed to simplify parsing the text of PDF document text for regular expressions.  The results of matches will be returned in the form of a Dictionary<string, string[]>, where the key represents the group name of the match, and the value represents all occurrences of the matched group.
+
+**Author**: [James Boyd](mailto:jboyd@brockandscott.com)
+
+### Usage
+
+````csharp
+	PDFParser parser = new PDFParser(@"path\to\my.pdf", MY_REGEX_STRING);
+	string result = parser["result"];
+````
+
+### Dependencies
+- iTextSharp-5.5.9
+
+---
+&copy; [Brock & Scott, PLLC](https://www.brockandscott.com)
+Licensed under AGPL 3.0, see [https://www.gnu.org/licenses/agpl-3.0.txt](https://www.gnu.org/licenses/agpl-3.0.txt) for further details
